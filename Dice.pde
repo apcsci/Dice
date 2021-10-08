@@ -5,8 +5,8 @@ void setup(){
 void draw(){
   background(255,255,255);
    int sum = 0;
-   for(int x = 3; x <= 500; x = x + 25) {
-     for(int y = 3; y <= 450; y = y + 25) {
+   for(int y = 3; y <= 500; y = y + 25) {
+     for(int x = 3; y <= 450; x = x + 25) {
        Die bob = new Die(x,y);
        bob.show();
        if (bob.diceRoll == 1) 
